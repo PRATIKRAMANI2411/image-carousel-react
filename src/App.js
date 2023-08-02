@@ -24,11 +24,11 @@ export default function App() {
     <div className="App">
       <h1>Carousel</h1>
       <div className="slider">
-        <div className="left-arrow" onClick={nextSlide}>
-          next
-        </div>
-        <div className="right-arrow" onClick={prevSlide}>
+        <div className="left-arrow" onClick={prevSlide}>
           prev
+        </div>
+        <div className="right-arrow" onClick={nextSlide}>
+          next
         </div>
       </div>
 
